@@ -1,0 +1,11 @@
+package com.sampletest.pak.com;
+
+public class TestBrowser {
+	
+
+	
+	public void Browser_Lanch() {
+		
+	}
+
+}
