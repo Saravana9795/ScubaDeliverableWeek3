@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Week Four Deliverables Scuba">
+  <test thread-count="5" name="TestNG_Week4">
+    <classes>
+      <class name="com.baseclass.com.BaseClassTest"/>
+    </classes>
+  </test> <!-- TestNG_Week4 -->
+</suite> <!-- Week Four Deliverables Scuba -->
