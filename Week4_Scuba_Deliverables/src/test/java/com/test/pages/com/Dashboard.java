@@ -13,7 +13,7 @@ public class Dashboard {
 
 	WebDriver driver;
 
-	// By Time=By.id("menu_dashboard_index");
+
 	@FindBy(id="menu_dashboard_index")
 	WebElement DB;
 
@@ -108,7 +108,7 @@ public class Dashboard {
 
 		ProjectName.clear();
 		ProjectName.click();
-		ProjectName.sendKeys(project); /* "ACME Ltd - ACME Ltd" */
+		ProjectName.sendKeys(project); 
 		ProjectName.sendKeys(Keys.DOWN);
 		ProjectName.sendKeys(Keys.ENTER);
 		Thread.sleep(1000);
@@ -150,15 +150,5 @@ public class Dashboard {
 
 	}
 
-	/* public void submitted() throws InterruptedException {
-		Thread.sleep(4000);
-		System.out.println("Submitted");
-		Thread.sleep(6000);
-		Boolean verifyTitle=driver.getTitle().equalsIgnoreCase("https://opensource-demo.orangehrmlive.com/index.php/time/viewMyTimesheet");
-		System.out.println("Boolean value of verifyTitle==:"+verifyTitle);
-		Assert.assertTrue(verifyTitle);
-
-
-	} */
 }
 

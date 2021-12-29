@@ -12,17 +12,17 @@ public class LoginPg {
 
 	@FindBy(id="txtUsername")
 	WebElement Username;
-	// By Username=By.id("txtUsername");
+
 
 
 	@FindBy(name="txtPassword")
 	WebElement Password;
-	//By Password=By.name("txtPassword");
+
 
 	@FindBy(xpath="//input[@name='Submit']")
 	WebElement LoginButton;
 
-	//By LoginButton=By.xpath("//input[@name='Submit']");
+	
 
 	@FindBy(xpath="//a[contains(text(),'Forgot your password?')]")
 	WebElement ForgotPassword;
@@ -33,7 +33,7 @@ public class LoginPg {
 	@FindBy(xpath="//a[contains(text(),'Logout')]")
 	WebElement Logout;
 
-	// By ForgotPassword=By.xpath("//a[contains(text(),'Forgot your password?')]");
+
 
 
 	public LoginPg(WebDriver driver) {
